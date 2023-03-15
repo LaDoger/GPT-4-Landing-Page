@@ -19,7 +19,7 @@
   <section class="intro">
     <div class="intro-text">
       <h2>Welcome to Our AI T-Shirt Designer</h2>
-      <p>Create unique and personalized t-shirt designs using the power of AI. Get started by uploading your image!</p>
+      <p>Create unique and personalized t-shirt designs using the power of AI. Our AI generative art technology analyzes your input image and automatically generates a stunning, one-of-a-kind design for your t-shirt. Get started by uploading your image!</p>
     </div>
   </section>
 
@@ -34,24 +34,25 @@
     <div id="preview">
       <div id="preview-img"></div>
     </div>
-    <button>Generate Image</button>
+    <button id="generate">Generate Design</button>
   </section>
 
   <!-- Order section -->
   <section class="order">
-    <h2>Place Your Order</h2>
+    <h2>Order Your T-Shirt</h2>
     <form>
-      <input type="text" placeholder="Full Name">
-      <input type="email" placeholder="Email Address">
-      <input type="text" placeholder="Shipping Address">
-      <select>
-        <option value="">Choose a Size</option>
+      <label for="size">Size</label>
+      <select id="size" name="size">
         <option value="small">Small</option>
         <option value="medium">Medium</option>
         <option value="large">Large</option>
         <option value="xlarge">X-Large</option>
       </select>
-      <button>Submit Order</button>
+      <label for="quantity">Quantity</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="99" value="1">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="example@example.com">
+      <button id="submit" type="submit">Submit Order</button>
     </form>
   </section>
 
