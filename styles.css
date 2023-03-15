@@ -1,0 +1,158 @@
+/* General styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f0e9e2;
+}
+
+h1, h2, h3, p {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header styles */
+header {
+  background-color: #a6cfd5;
+  color: #3c3c3c;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  color: #3c3c3c;
+  font-size: 24px;
+}
+
+/* Intro section styles */
+.intro {
+  background-image: url('background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #3c3c3c;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.intro-text {
+  width: 70%;
+}
+
+/* Generator and Order section styles */
+.generator,
+.order {
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.order {
+  background-color: #e4d7d0;
+}
+
+/* File input styles */
+.file-input-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.file-input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.file-input-label {
+  background-color: #b6a6ca;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.file-name {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* Preview styles */
+#preview {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#preview-img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #3c3c3c;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* Order form styles */
+.order form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, select {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Button styles */
+button {
+  background-color: #b6a6ca;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #9c8db9;
+}
+
+/* Footer styles */
+footer {
+  background-color: #a6cfd5;
+  color: #3c3c3c;
+  padding: 20px;
+  text-align: center;
+}

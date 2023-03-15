@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI T-Shirt Designer</title>
+  <!-- Font link -->
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+  <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1 class="logo">AI T-Shirt Designer</h1>
+  </header>
+
+  <!-- Intro section -->
+  <section class="intro">
+    <div class="intro-text">
+      <h2>Welcome to Our AI T-Shirt Designer</h2>
+      <p>Create unique and personalized t-shirt designs using the power of AI. Get started by uploading your image!</p>
+    </div>
+  </section>
+
+  <!-- Generator section -->
+  <section class="generator">
+    <h2>Design Your T-Shirt</h2>
+    <div class="file-input-wrapper">
+      <label for="file-input" class="file-input-label">Choose Image</label>
+      <input type="file" id="file-input" class="file-input">
+      <span class="file-name">No file chosen</span>
+    </div>
+    <div id="preview">
+      <div id="preview-img"></div>
+    </div>
+    <button>Generate Image</button>
+  </section>
+
+  <!-- Order section -->
+  <section class="order">
+    <h2>Place Your Order</h2>
+    <form>
+      <input type="text" placeholder="Full Name">
+      <input type="email" placeholder="Email Address">
+      <input type="text" placeholder="Shipping Address">
+      <select>
+        <option value="">Choose a Size</option>
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+        <option value="xlarge">X-Large</option>
+      </select>
+      <button>Submit Order</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 AI T-Shirt Designer. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
